@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>POST MORTEM</title>
+    <link rel="icon" href="../img/favicon/favicon.ico" />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+</head>
+
+<body id="albums">
+    <header class="lateral">
+        <div class="fixl">
+            <div>
+                <a href="../index.html"><img src="../img/logo/logo.svg" alt="Logo de Spotify"
+                        title="Logo de Spotify" /></a>
+                <nav>
+                    <ul>
+                        <li id="inici" class="row">
+                            <img src="../img/side/home.svg" alt="Home" title="Home" />
+                            <ul>
+                                <li><a href="../main.html">Inici</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="row">
+                            <img src="../img/side/search.svg" alt="Cercador" title="Cercador" />
+                            <ul>
+                                <li>Cerca</li>
+                            </ul>
+                        </li>
+
+                        <li class="row">
+                            <img src="../img/side/library.svg" alt="Biblioteca" title="Biblioteca" />
+                            <ul>
+                                <li>Biblioteca</li>
+                            </ul>
+                        </li>
+                        <li class="row">
+                            <img src="../img/side/add.svg" alt="Afegir una llista" title="Afegir una llista" />
+                            <ul>
+                                <li>Crea llista</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="hybridmain">
+        <section id="cercadoriperfil">
+            <div class="between">
+                <form action="buscador.php" method="post">
+                    <input type="text" id="cercador" placeholder="Artistes, cançons o podcasts">
+                </form>
+                <div class="row">
+                    <img src="../img/profile/marcelo.jpg" alt="perfil" title="perfil" />
+                    <p>Juan Camilo Florez Jaramillo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="album">
+            <div class="row">
+                <img src="../img/albums/album01.jpg" alt="POST MORTEM" title="POST MORTEM" />
+                <div>
+                    <p>ALBUM</p>
+                    <h1>POST MORTEM</h1>
+                    <p>Dillom · 2021 · 18 CANÇONS, 43 min 43 sec</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cançons">
+            <table>
+                <table class="capçelera">
+                    <tr>
+                        <th>#</th>
+                        <th>TÍTOL</th>
+                        <th>DURADA</th>
+                    </tr>
+                </table>
+
+                <table id="primerafila" class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">1.</td>
+                        <th>LA PRIMERA</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">3:19</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">2.</td>
+                        <th>HEGEMONICA</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">1:46</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom, L-Gante</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">3.</td>
+                        <th>PELOTUDA</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">3:05</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">4.</td>
+                        <th>DEMIAN</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">1:52</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom, Mario Pergolini</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">5.</td>
+                        <th>POST MORTEM</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:39</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">6.</td>
+                        <th>BICICLETA</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">3:27</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">7.</td>
+                        <th>DUO</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">0:42</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">8.</td>
+                        <th>PISO 13</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">1:59</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">9.</td>
+                        <th>SIDE</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">1:59</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">10.</td>
+                        <th>COACH</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:57</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom, Muerejoven</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">11.</td>
+                        <th>BOHEMIAN GROOVE SKIT</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">1:00</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">12.</td>
+                        <th>OPA</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:49</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">13.</td>
+                        <th>RILI RILI</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:19</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">14.</td>
+                        <th>220</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:56</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">15.</td>
+                        <th>TODA LA GENTE</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">1:56</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">16.</td>
+                        <th>REALITY</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:11</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">17.</td>
+                        <th>ROCKETPOWERS</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">3:08</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom, Saramalacara</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+
+                <table class="taulacanço">
+                    <tr class="canço">
+                        <td rowspan="2">18.</td>
+                        <th>AMIGOS NUEVOS</th>
+                        <td rowspan="2"><img src="../img/player/like.svg" alt="M'Agrada" title="M'Agrada" /></td>
+                        <td rowspan="2">2:19</td>
+                    </tr>
+                    <tr class="artista">
+                        <td>Dillom</td>
+                        <!-- ESPAI -->
+                    </tr>
+                </table>
+            </table>
+        </section>
+
+        <section id="relacionats">
+            <h2>Relacionats</h2>
+            <div class="row">
+                <article class="w20">
+                    <a href="extres/5rriente.html">
+                        <div class="inner3">
+                            <img src="../img/albums/album02.jpg" alt="5RRIENTE" title="5RRIENTE" />
+                            <h2>5RRIENTE</h2>
+                            <p>Mesita</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="w20">
+                    <a href="extres/oscuro_extasis.html">
+                        <div class="inner3">
+                            <img src="../img/albums/album03.jpg" alt="OSCURO ÉXTASIS" title="OSCURO ÉXTASIS" />
+                            <h2>OSCURO ÉXTASIS</h2>
+                            <p>WOS</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="w20">
+                    <a href="extres/desde_el_fin_del_mundo.html">
+                        <div class="inner3">
+                            <img src="../img/albums/album04.jpg" alt="Desde el Fin del Mundo"
+                                title="Desde el Fin del Mundo" />
+                            <h2>Desde el Fin del Mundo</h2>
+                            <p>Duki</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="w20" id="segonadaptatiu">
+                    <a href="extres/cinema.html">
+                        <div class="inner3">
+                            <img src="../img/albums/album05.jpg" alt="CINEMA" title="CINEMA" />
+                            <h2>CINEMA</h2>
+                            <p>Bhavi</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="w20 primeradaptatiu">
+                    <a href="extres/k-12.html">
+                        <div class="inner3">
+                            <img src="../img/albums/album06.jpg" alt="K-12" title="K-12" />
+                            <h2>K-12</h2>
+                            <p>Melanie Martinez</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="fixb">
+            <div class="between">
+                <div id="canço" class="row">
+                    <img src="../img/albums/album01.jpg" alt="REALITY" title="REALITY" />
+                    <div>
+                        <h3>REALITY</h3>
+                        <p>Dillom</p>
+                    </div>
+                    <img id="magrada" src="../img/player/like.svg" alt="M'agrada" title="M'agrada" />
+                </div>
+
+                <div class="row">
+                    <img id="anterior" src="../img/player/previous.svg" alt="Anterior cançó" title="Anterior cançó" />
+                    <img id="reproducir" src="../img/player/play.svg" alt="Reproduir cançó" title="Reproduir cançó" />
+                    <img id="seguent" src="../img/player/next.svg" alt="Següent cançó" title="Següent cançó" />
+                </div>
+
+                <div>
+                    <img id="silenciar" src="../img/player/mute.svg" alt="Silenciar cançó" title="Silenciar cançó" />
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
